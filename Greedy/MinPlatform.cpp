@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-
+// Sweep line algorithm
 int minPlatform(vector<int> arr, vector<int> dep){
 	vector<pair<int, int>> events;
 	for(int i = 0; i < arr.size(); i++){
